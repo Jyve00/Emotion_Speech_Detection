@@ -23,15 +23,32 @@ Fast Fourier Transform
 
 ![Fast Fourier Transform](https://github.com/Jyve00/Emotion_Detection-/blob/main/FFT.png)
 
-
+librosa.load 
+sample rate 
+specrogram 
 
 
 test
 ## Feature Extraction 
-
+MelSpectogram
+MFCC
+MFCC Delta
+MFCC Delta-Delta
+Root Mean Square Value
+Zero-crossing 
 ## Data Augmentation 
+Butterworth Filter 
+adding noise 
+Pitch Stretching 
+Time Stretching 
+Time shifting 
+Pre Emphasis 
 
 ## Modeling 
+
+Tensorflow 
+CNN 
+
 
 ## Evaluation 
 
