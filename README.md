@@ -10,12 +10,12 @@ It can sometimes be very difficult for a doctor to diagnose their patients and i
 ## Speech and Emotions 
 
 
-
+![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/Emotion%20Classes.png)
 
 
 ## Data
 
-
+test
 ## Feature Extraction 
 
 ## Data Augmentation 
