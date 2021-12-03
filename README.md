@@ -10,10 +10,21 @@ It can sometimes be very difficult for a doctor to diagnose their patients and i
 ## Speech and Emotions 
 
 
+
+
+
 ![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/Emotion%20Classes.png)
 
 
-## Data
+## Audio Data
+
+Fast Fourier Transform 
+(https://www.youtube.com/watch?v=h7apO7q16V0&ab_channel=Reducible)
+
+![Fast Fourier Transform](https://github.com/Jyve00/Emotion_Detection-/blob/main/FFT.png)
+
+
+
 
 test
 ## Feature Extraction 
