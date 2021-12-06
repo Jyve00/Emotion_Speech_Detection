@@ -1,6 +1,8 @@
 # Emotion_Detection-
 Detection Emotion using speech data
 
+# Overview 
+This is a Classification problem using recorded audio of human speech as it's data. This project will demonstrate how to handle audio data, create synthetic data from the original audio, extract features and input them into a Convolutional Neural Network. Some of the methods used to handle the audio data are  
 
 
 ## Use Case 
@@ -51,7 +53,7 @@ CNN
 
 
 ## Evaluation 
-
+()
 
 
 
