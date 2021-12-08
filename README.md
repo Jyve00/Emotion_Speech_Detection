@@ -1,10 +1,9 @@
 # Emotion_Detection-
-![speech]
-(https://camo.githubusercontent.com/d7ecf631b87e28e81820007e46b77650b51e2f756ab90849312b4fb3510371d5/68747470733a2f2f692e696d6775722e636f6d2f663154717669542e6a706567)
+
 
 Detection Emotion using speech data
 
-
+![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FSuyashMore%2FMevonAI-Speech-Emotion-Recognition&psig=AOvVaw27t-cKarKKwzi-rNOrvd1G&ust=1639080175640000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNj8ns__1PQCFQAAAAAdAAAAABAE)
 test
 
 ## Overview 
