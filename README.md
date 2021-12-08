@@ -1,5 +1,11 @@
 # Emotion_Detection-
+(https://camo.githubusercontent.com/d7ecf631b87e28e81820007e46b77650b51e2f756ab90849312b4fb3510371d5/68747470733a2f2f692e696d6775722e636f6d2f663154717669542e6a706567)
+
 Detection Emotion using speech data
+
+
+test
+
 ## Overview 
  There's a lot that the human voice can tell us beyond just understanding what someone is saying but also how they are feeling and what emotions they are displaying. It can sometimes be obvious that an individual is happy or sad just by the tonal qualities of their voice and how they speak. Computers can also detect these differences and qualities in tone over the different emotions but it is a very hard problem to solve due to the differences in the human voice across the globe. But there are so many benefits that analyzing human speech can bring and there are many different ways to go about this problem. This project will be my approach to dealing with human speech data and using that data to come up with a solution to an already existing problem. This project will also showcase my skills as a Data Scientist as well as a professional Audio Engineer. 
 
@@ -20,6 +26,8 @@ The RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) is a wi
 Academic paper citation from the creators of RAVDESS:  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391
 
 
+/view/images/emotion_count.png)
+
 
 
 ![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/Emotion%20Classes.png)
@@ -31,8 +39,8 @@ For this problem I chose to stick with using Convolution Neural Networks and tes
 
 
 ## Evaluation 
-(
 
+(view/images/Final_Model_Results.png)
 
 
 
