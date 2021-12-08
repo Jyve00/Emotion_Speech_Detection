@@ -1,16 +1,23 @@
 # Emotion_Detection-
 Detection Emotion using speech data
+## Overview 
+ There's a lot that the human voice can tell us beyond just understanding what someone is saying but also how they are feeling and what emotions they are displaying. It can sometimes be obvious that an individual is happy or sad just by the tonal qualities of their voice and how they speak. Computers can also detect these differences and qualities in tone over the different emotions but it is a very hard problem to solve due to the differences in the human voice across the globe. But there are so many benefits that analyzing human speech can bring and there are many different ways to go about this problem. This project will be my approach to dealing with human speech data and using that data to come up with a solution to an already existing problem. This project will also showcase my skills as a Data Scientist as well as a professional Audio Engineer. 
 
-# Overview 
-This is a Classification problem using recorded audio of human speech as it's data. This project will demonstrate how to handle audio data, create synthetic data from the original audio, extract features and input them into a Convolutional Neural Network. Some of the methods used to handle the audio data are  
+# Business Summary 
+
+ It Can sometimes be difficult for doctors and therapists to pickup on emotions just because of the complexity of humans in general but a lot of the time you can tell how an individual is feeling just by the tone of their voice, so I am purposing a system that records a session between a therapist and a patient and it can detect an emotion that the therapist might have missed . It Can create a clearer picture of what subjects bring up what emotions and can keep a log of these emotions and can help diagnose patients. This system could also be implemented in a smart watch application that could monitor the patient at all times and notify the user when they are expressing a certain emotion. For example it could notify someone with anger management issues that they are losing control of there emotions and it could help the user calm down. 
 
 
-## Use Case 
-It can sometimes be very difficult for a doctor to diagnose their patients and in the past few years we have seen many fields take advantage of what machine learning has to offer and the medical industry has also dipped it's toes in the idea. One great use case is using recorded speech data to detect emotions. This could be use full for doctors and therapist when they are evaluating their patients. A session between a doctor and their patient could be recorded and than ran through our model to predict what emotions are detected. This can be extremely use full for doctors and therapist who may miss something when evaluating a patient and can be great for seeing what subjects bring up what emotions. 
 
 
-## Speech and Emotions 
+# Data Understanding 
 
+Source: https://smartlaboratory.org/ravdess/
+
+The RAVDESS (Ryerson Audio-Visual Database of Emotional Speech and Song) is a widely used dataset for emotion classification using recorded speech because of its high quality and consistent audio quality. The dataset contains 24 actors (12 female and 12 male) vocalizing 2 different lexically-matched statements in a neutral North American accent. Each statement is spoken in 8 emotion classes with each class performed in 2 intensities (normal and intense). Each audio file is in .wav format, mono (1 channel) and with a sampling rate of 48,000 Hz. The duration of each track is between 3 and 5 seconds. 
+
+
+Academic paper citation from the creators of RAVDESS:  https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0196391
 
 
 
@@ -18,38 +25,9 @@ It can sometimes be very difficult for a doctor to diagnose their patients and i
 ![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/Emotion%20Classes.png)
 
 
-## Audio Data
-
-Fast Fourier Transform 
-(https://www.youtube.com/watch?v=h7apO7q16V0&ab_channel=Reducible)
-
-![Fast Fourier Transform](https://github.com/Jyve00/Emotion_Detection-/blob/main/FFT.png)
-
-librosa.load 
-sample rate 
-specrogram 
-
-
-test
-## Feature Extraction 
-MelSpectogram
-MFCC
-MFCC Delta
-MFCC Delta-Delta
-Root Mean Square Value
-Zero-crossing 
-## Data Augmentation 
-Butterworth Filter 
-adding noise 
-Pitch Stretching 
-Time Stretching 
-Time shifting 
-Pre Emphasis 
-
 ## Modeling 
-
-Tensorflow 
-CNN 
+ 
+For this problem I chose to stick with using Convolution Neural Networks and test with various architectures and hyperparameters. 
 
 
 ## Evaluation 
