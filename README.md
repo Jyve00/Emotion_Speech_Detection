@@ -31,7 +31,7 @@ For this problem I chose to stick with using Convolution Neural Networks and tes
 
 
 ## Evaluation 
-()
+(
 
 
 
@@ -40,13 +40,18 @@ For this problem I chose to stick with using Convolution Neural Networks and tes
 
 ```
 
-├── Data                                <- folder containing csv data and nested subfolder of audio data
+├── Data                                <- contains csv data and nested subfolder of audio data
 │   └── ...
-├── images                              <- 
+├── images                             <- contains saved images from notebooks. 
 │   └── ...
+├── notebooks                          <- contains more in depth notebooks 
+│  └── EDA.ipynb                       <- contains detailing the data science process containing code and narrative
+│  └── first_model.ipynb                <- contains basic data preprocessing and NN model
+│  └── MVP.ipynb
+│  └──              <- notebook containing Minimum Viable Product as a simple feature extraction and CNN
 ├── .gitattributes                      <- file specifying files for git lfs to track
 ├── .gitignore                          <- file specifying files/directories to ignore
-├── EDA.ipynb                           <- notebook detailing the data science process containing code and narrative
+├── Emotion_Classifier.ipynb            <- Main Notebook 
 ├── README.md                           <- Top-level README
 ├── presentation.pdf                    <- presentation slides for a business audience
 └── 
