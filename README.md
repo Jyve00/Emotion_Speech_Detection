@@ -3,7 +3,7 @@
 
 Detection Emotion using speech data
 
-![alt text](https://www.google.com/url?sa=i&url=https%3A%2F%2Fgithub.com%2FSuyashMore%2FMevonAI-Speech-Emotion-Recognition&psig=AOvVaw27t-cKarKKwzi-rNOrvd1G&ust=1639080175640000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCNj8ns__1PQCFQAAAAAdAAAAABAE)
+![alt text](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/speech.png)
 test
 
 ## Overview 
