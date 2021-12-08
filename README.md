@@ -3,8 +3,8 @@
 
 Detection Emotion using speech data
 
-![alt text](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/speech.png)
-test
+![speech to text](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/speech.png)
+
 
 ## Overview 
  There's a lot that the human voice can tell us beyond just understanding what someone is saying but also how they are feeling and what emotions they are displaying. It can sometimes be obvious that an individual is happy or sad just by the tonal qualities of their voice and how they speak. Computers can also detect these differences and qualities in tone over the different emotions but it is a very hard problem to solve due to the differences in the human voice across the globe. But there are so many benefits that analyzing human speech can bring and there are many different ways to go about this problem. This project will be my approach to dealing with human speech data and using that data to come up with a solution to an already existing problem. This project will also showcase my skills as a Data Scientist as well as a professional Audio Engineer. 
@@ -30,17 +30,20 @@ Academic paper citation from the creators of RAVDESS:  https://journals.plos.org
 
 
 
-![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/Emotion%20Classes.png)
+![Emotions and Loudness](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/emotion_count.png)
 
 
 ## Modeling 
  
 For this problem I chose to stick with using Convolution Neural Networks and test with various architectures and hyperparameters. 
 
+![model](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/Final_Model_Results.png)
 
 ## Evaluation 
 
-(view/images/Final_Model_Results.png)
+And from this visual we can see that the model DOES get some emotions confused with other emotions and the more you look at the image and think about it the more it starts to make sense. Even a human can make mistakes like mistaking “disgust” for “angry” which the model did 13% of the time. My model had the best with detecting “Anger” and was right 78% of the time and was the worst at predicting “Sad” 
+
+![confusion matrix](https://github.com/Jyve00/Emotion_Detection-/blob/main/images/Confussion_matrix.png)
 
 
 
@@ -50,13 +53,13 @@ For this problem I chose to stick with using Convolution Neural Networks and tes
 
 ├── Data                                <- contains csv data and nested subfolder of audio data
 │   └── ...
-├── images                             <- contains saved images from notebooks. 
+├── images                              <- contains saved images from notebooks. 
 │   └── ...
-├── notebooks                          <- contains more in depth notebooks 
-│  └── EDA.ipynb                       <- contains detailing the data science process containing code and narrative
+├── notebooks                           <- contains more in depth notebooks 
+│  └── EDA.ipynb                        <- contains detailing the data science process containing code and narrative
 │  └── first_model.ipynb                <- contains basic data preprocessing and NN model
-│  └── MVP.ipynb
-│  └──              <- notebook containing Minimum Viable Product as a simple feature extraction and CNN
+│  └── simple_model.ipynb               <-contains basic audio extractions and experimanting with neaural networks 
+│  └── MVP.ipynb                        <- notebook containing Minimum Viable Product as a simple feature extraction and CNN  
 ├── .gitattributes                      <- file specifying files for git lfs to track
 ├── .gitignore                          <- file specifying files/directories to ignore
 ├── Emotion_Classifier.ipynb            <- Main Notebook 
