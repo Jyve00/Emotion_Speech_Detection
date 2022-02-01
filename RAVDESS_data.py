@@ -1,10 +1,11 @@
-# custom Pytorch Data Class for the RAVDESS Dataset
-
 import pandas as pd 
 import numpy as np 
 import torch 
 import torchaudio
 from torch.utils.data import Dataset
+
+
+
 
 # Global variables 
 
@@ -83,13 +84,13 @@ class RavdessDataset(Dataset):
         return signal
 
     def _get_audio_sample_path(self, index):
-        fold = f"fold{self.annotations.iloc[index, 5]}"
+        fold = f"{self.annotations.iloc[index, 0]}"
         path = os.path.join(self.audio_dir, fold, self.annotations.iloc[
             index, 0])
-        return path
+        return fold
 
     def _get_audio_sample_label(self, index):
-        return self.annotations.iloc[index, 3]
+        return self.annotations.iloc[index, 1]
 
 
 if __name__ == "__main__":
